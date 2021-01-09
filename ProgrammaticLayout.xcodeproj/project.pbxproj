@@ -3,27 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34816AC425A7EEA30067E9A2 /* BasicLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34816AC325A7EEA30067E9A2 /* BasicLayoutView.swift */; };
+		34816AC725A800C30067E9A2 /* StackViewLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34816AC625A800C30067E9A2 /* StackViewLayoutView.swift */; };
+		34816ACA25AA5D730067E9A2 /* AnchorageLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34816AC925AA5D730067E9A2 /* AnchorageLayoutView.swift */; };
+		34816ACE25AA5E9D0067E9A2 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34816ACD25AA5E9D0067E9A2 /* UIView.swift */; };
+		34816AD225AA5EF00067E9A2 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34816AD125AA5EF00067E9A2 /* UIStackView.swift */; };
+		34816AD525AA608A0067E9A2 /* ComposedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34816AD425AA608A0067E9A2 /* ComposedViewController.swift */; };
+		34816AD825AA60BA0067E9A2 /* ComposedLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34816AD725AA60BA0067E9A2 /* ComposedLayoutView.swift */; };
+		34816ADB25AA60E50067E9A2 /* LoginStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34816ADA25AA60E50067E9A2 /* LoginStackView.swift */; };
+		34816ADE25AA69850067E9A2 /* BasicLayoutWithViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34816ADD25AA69850067E9A2 /* BasicLayoutWithViewViewController.swift */; };
+		34816AE425AA6B1F0067E9A2 /* CleanerLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34816AE325AA6B1F0067E9A2 /* CleanerLayoutView.swift */; };
+		34816AE725AA6BBD0067E9A2 /* ProgrammaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34816AE625AA6BBD0067E9A2 /* ProgrammaticView.swift */; };
 		34FD64AB25A5427E009E03CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD64AA25A5427D009E03CD /* AppDelegate.swift */; };
 		34FD64AD25A5427E009E03CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD64AC25A5427E009E03CD /* SceneDelegate.swift */; };
-		34FD64AF25A5427E009E03CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD64AE25A5427E009E03CD /* ViewController.swift */; };
+		34FD64AF25A5427E009E03CD /* BasicLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD64AE25A5427E009E03CD /* BasicLayoutViewController.swift */; };
 		34FD64B225A5427E009E03CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FD64B025A5427E009E03CD /* Main.storyboard */; };
 		34FD64B425A5427F009E03CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34FD64B325A5427F009E03CD /* Assets.xcassets */; };
 		34FD64B725A5427F009E03CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FD64B525A5427F009E03CD /* LaunchScreen.storyboard */; };
+		34FD64C125A54A2C009E03CD /* CleanerLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD64C025A54A2C009E03CD /* CleanerLayoutViewController.swift */; };
+		34FD64C425A54BB4009E03CD /* StackViewLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD64C325A54BB4009E03CD /* StackViewLayoutViewController.swift */; };
+		34FD64C825A55359009E03CD /* Anchorage in Frameworks */ = {isa = PBXBuildFile; productRef = 34FD64C725A55359009E03CD /* Anchorage */; };
+		34FD64CB25A5536C009E03CD /* AnchorageLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD64CA25A5536C009E03CD /* AnchorageLayoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34816AC325A7EEA30067E9A2 /* BasicLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicLayoutView.swift; sourceTree = "<group>"; };
+		34816AC625A800C30067E9A2 /* StackViewLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewLayoutView.swift; sourceTree = "<group>"; };
+		34816AC925AA5D730067E9A2 /* AnchorageLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorageLayoutView.swift; sourceTree = "<group>"; };
+		34816ACD25AA5E9D0067E9A2 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		34816AD125AA5EF00067E9A2 /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		34816AD425AA608A0067E9A2 /* ComposedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposedViewController.swift; sourceTree = "<group>"; };
+		34816AD725AA60BA0067E9A2 /* ComposedLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposedLayoutView.swift; sourceTree = "<group>"; };
+		34816ADA25AA60E50067E9A2 /* LoginStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStackView.swift; sourceTree = "<group>"; };
+		34816ADD25AA69850067E9A2 /* BasicLayoutWithViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicLayoutWithViewViewController.swift; sourceTree = "<group>"; };
+		34816AE325AA6B1F0067E9A2 /* CleanerLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerLayoutView.swift; sourceTree = "<group>"; };
+		34816AE625AA6BBD0067E9A2 /* ProgrammaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticView.swift; sourceTree = "<group>"; };
 		34FD64A725A5427D009E03CD /* ProgrammaticLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammaticLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FD64AA25A5427D009E03CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34FD64AC25A5427E009E03CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		34FD64AE25A5427E009E03CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34FD64AE25A5427E009E03CD /* BasicLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicLayoutViewController.swift; sourceTree = "<group>"; };
 		34FD64B125A5427E009E03CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34FD64B325A5427F009E03CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34FD64B625A5427F009E03CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34FD64B825A5427F009E03CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34FD64C025A54A2C009E03CD /* CleanerLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerLayoutViewController.swift; sourceTree = "<group>"; };
+		34FD64C325A54BB4009E03CD /* StackViewLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewLayoutViewController.swift; sourceTree = "<group>"; };
+		34FD64CA25A5536C009E03CD /* AnchorageLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorageLayoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +60,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34FD64C825A55359009E03CD /* Anchorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34816ACC25AA5E930067E9A2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				34816ACD25AA5E9D0067E9A2 /* UIView.swift */,
+				34816AD125AA5EF00067E9A2 /* UIStackView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		34816AE025AA69EA0067E9A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34FD64B025A5427E009E03CD /* Main.storyboard */,
+				34FD64B325A5427F009E03CD /* Assets.xcassets */,
+				34FD64B525A5427F009E03CD /* LaunchScreen.storyboard */,
+				34FD64B825A5427F009E03CD /* Info.plist */,
+				34FD64AA25A5427D009E03CD /* AppDelegate.swift */,
+				34FD64AC25A5427E009E03CD /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		34FD649E25A5427D009E03CD = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +108,21 @@
 		34FD64A925A5427D009E03CD /* ProgrammaticLayout */ = {
 			isa = PBXGroup;
 			children = (
-				34FD64AA25A5427D009E03CD /* AppDelegate.swift */,
-				34FD64AC25A5427E009E03CD /* SceneDelegate.swift */,
-				34FD64AE25A5427E009E03CD /* ViewController.swift */,
-				34FD64B025A5427E009E03CD /* Main.storyboard */,
-				34FD64B325A5427F009E03CD /* Assets.xcassets */,
-				34FD64B525A5427F009E03CD /* LaunchScreen.storyboard */,
-				34FD64B825A5427F009E03CD /* Info.plist */,
+				34FD64AE25A5427E009E03CD /* BasicLayoutViewController.swift */,
+				34816AE625AA6BBD0067E9A2 /* ProgrammaticView.swift */,
+				34816ADD25AA69850067E9A2 /* BasicLayoutWithViewViewController.swift */,
+				34816AC325A7EEA30067E9A2 /* BasicLayoutView.swift */,
+				34FD64C025A54A2C009E03CD /* CleanerLayoutViewController.swift */,
+				34816AE325AA6B1F0067E9A2 /* CleanerLayoutView.swift */,
+				34FD64C325A54BB4009E03CD /* StackViewLayoutViewController.swift */,
+				34816AC625A800C30067E9A2 /* StackViewLayoutView.swift */,
+				34FD64CA25A5536C009E03CD /* AnchorageLayoutViewController.swift */,
+				34816AC925AA5D730067E9A2 /* AnchorageLayoutView.swift */,
+				34816AD425AA608A0067E9A2 /* ComposedViewController.swift */,
+				34816AD725AA60BA0067E9A2 /* ComposedLayoutView.swift */,
+				34816ADA25AA60E50067E9A2 /* LoginStackView.swift */,
+				34816AE025AA69EA0067E9A2 /* Resources */,
+				34816ACC25AA5E930067E9A2 /* Extensions */,
 			);
 			path = ProgrammaticLayout;
 			sourceTree = "<group>";
@@ -83,6 +143,9 @@
 			dependencies = (
 			);
 			name = ProgrammaticLayout;
+			packageProductDependencies = (
+				34FD64C725A55359009E03CD /* Anchorage */,
+			);
 			productName = ProgrammaticLayout;
 			productReference = 34FD64A725A5427D009E03CD /* ProgrammaticLayout.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +173,9 @@
 				Base,
 			);
 			mainGroup = 34FD649E25A5427D009E03CD;
+			packageReferences = (
+				34FD64C625A55359009E03CD /* XCRemoteSwiftPackageReference "Anchorage" */,
+			);
 			productRefGroup = 34FD64A825A5427D009E03CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,9 +203,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34FD64AF25A5427E009E03CD /* ViewController.swift in Sources */,
+				34816AD525AA608A0067E9A2 /* ComposedViewController.swift in Sources */,
+				34816ACE25AA5E9D0067E9A2 /* UIView.swift in Sources */,
+				34FD64AF25A5427E009E03CD /* BasicLayoutViewController.swift in Sources */,
+				34FD64CB25A5536C009E03CD /* AnchorageLayoutViewController.swift in Sources */,
+				34FD64C425A54BB4009E03CD /* StackViewLayoutViewController.swift in Sources */,
+				34816AE425AA6B1F0067E9A2 /* CleanerLayoutView.swift in Sources */,
+				34816AE725AA6BBD0067E9A2 /* ProgrammaticView.swift in Sources */,
+				34816ACA25AA5D730067E9A2 /* AnchorageLayoutView.swift in Sources */,
+				34FD64C125A54A2C009E03CD /* CleanerLayoutViewController.swift in Sources */,
+				34816AC425A7EEA30067E9A2 /* BasicLayoutView.swift in Sources */,
 				34FD64AB25A5427E009E03CD /* AppDelegate.swift in Sources */,
+				34816AC725A800C30067E9A2 /* StackViewLayoutView.swift in Sources */,
 				34FD64AD25A5427E009E03CD /* SceneDelegate.swift in Sources */,
+				34816ADE25AA69850067E9A2 /* BasicLayoutWithViewViewController.swift in Sources */,
+				34816ADB25AA60E50067E9A2 /* LoginStackView.swift in Sources */,
+				34816AD225AA5EF00067E9A2 /* UIStackView.swift in Sources */,
+				34816AD825AA60BA0067E9A2 /* ComposedLayoutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +368,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M4QVC2VWNY;
-				INFOPLIST_FILE = ProgrammaticLayout/Info.plist;
+				INFOPLIST_FILE = ProgrammaticLayout/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +387,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M4QVC2VWNY;
-				INFOPLIST_FILE = ProgrammaticLayout/Info.plist;
+				INFOPLIST_FILE = ProgrammaticLayout/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +421,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		34FD64C625A55359009E03CD /* XCRemoteSwiftPackageReference "Anchorage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Rightpoint/Anchorage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		34FD64C725A55359009E03CD /* Anchorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34FD64C625A55359009E03CD /* XCRemoteSwiftPackageReference "Anchorage" */;
+			productName = Anchorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 34FD649F25A5427D009E03CD /* Project object */;
 }
