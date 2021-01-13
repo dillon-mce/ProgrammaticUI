@@ -12,5 +12,16 @@ class BasicLayoutWithViewViewController: UIViewController {
 
     override func loadView() {
         view = contentView
+        contentView.delegate = self
     }
+}
+
+extension BasicLayoutWithViewViewController: BasicLayoutViewDelegate {
+    func submitButtonTapped() {
+        let nextVC = UIViewController()
+        nextVC.view.backgroundColor = .systemBlue
+        show(nextVC, sender: self)
+    }
+
+
 }

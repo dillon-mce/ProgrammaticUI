@@ -6,7 +6,13 @@
 
 import UIKit
 
+protocol BasicLayoutViewDelegate: AnyObject {
+    func submitButtonTapped()
+}
+
 class BasicLayoutView: ProgrammaticView {
+
+    weak var delegate: BasicLayoutViewDelegate?
 
     private let usernameField = UITextField()
     private let passwordField = UITextField()
@@ -26,6 +32,7 @@ class BasicLayoutView: ProgrammaticView {
         submitButton.setTitle("Log in", for: .normal)
         submitButton.backgroundColor = .systemBlue
         submitButton.layer.cornerRadius = 8
+        submitButton.addTarget(self, action: #selector(submitButtonTapped), for: .touchUpInside)
     }
 
     override func constrain() {
@@ -47,5 +54,9 @@ class BasicLayoutView: ProgrammaticView {
         submitButton.topAnchor.constraint(equalTo: passwordField.bottomAnchor, constant: 8).isActive = true
         submitButton.centerXAnchor.constraint(equalTo: passwordField.centerXAnchor).isActive = true
         submitButton.widthAnchor.constraint(equalToConstant: 200).isActive = true
+    }
+
+    @objc private func submitButtonTapped() {
+        delegate?.submitButtonTapped()
     }
 }
